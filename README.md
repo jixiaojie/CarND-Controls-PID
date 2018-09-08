@@ -34,35 +34,34 @@ Here is the PID formula:
 #### 3.Describe the effect each of the P, I, D components had in your implementation.
 
 P: 0.100513   
-P (proportional): Reference the CTE(Current Track Error), the steer angle of the vehicle is adjusted proportionally. If the CTE(Abs) is large, the steering angle will also become larger toward the reference trajectory. Otherwise, if the CTE is small, the steering angle will also decrease.  
-However, the parameter P will swing the vehicle.  
-Here is a image for term P:  
+P (proportional): Reference the CTE(Current Track Error), the steer angle of the vehicle is adjusted proportionally. If the CTE(Abs) is large, the steering angle will also become larger toward the reference trajectory. Otherwise, if the CTE is small, the steering angle will also decrease. However, the parameter P will swing the vehicle.  
+Here is a image for parameter P:  
 <div class="test">
 <img src="Docs/image_p.png" width="600" />
 </div>
 
-And here is a video for term P:
+And here is a video for parameter P:
 [video](./Docs/video_p.mp4)
   
 I: 0.002906  
-I (integral): Because parameter P will cause the vehicle to swing up and down near the reference trajectory, so add parameter I to reduce the amplitude of the swing, so that the vehicle can smoothly approach the reference trajectory.
+I (integral): Because parameter P will cause the vehicle to swing up and down near the reference trajectory, so add parameter I to reduce the amplitude of the swing, so that the vehicle can smoothly approach the reference trajectory.  
 Here is a image for parameter I:  
 <div class="test">
 <img src="Docs/image_i.png" width="600" />
 </div>
 
-And here is a video for term I:
+And here is a video for parameter I:
 [video](./Docs/video_i.mp4)
 
 
 D: 7.1  
-D (differential): If the vehicle steering has some little error, so the vehicle can not approach the reference trajectory correctly. The parameter D can  compensate the vehicle steering error.
+D (differential): If the vehicle steering has some little error, so the vehicle can not approach the reference trajectory correctly. The parameter D can  compensate the vehicle steering error.  
 Here is a image for parameter D:  
 <div class="test">
 <img src="Docs/image_d.png" width="600" />
 </div>
 
-And here is a video for term d:
+And here is a video for parameter D:
 [video](./Docs/video_d.mp4)
 
 #### 4.Describe how the final hyperparameters were chosen.
