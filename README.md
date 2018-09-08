@@ -33,14 +33,14 @@ Here is the PID formula:
 
 #### 3.Describe the effect each of the P, I, D components had in your implementation.
 
-P:0.100513  
-I:0.002906  
-D:7.1  
+P: 0.100513  
+I: 0.002906  
+D: 7.1  
 
 
 #### 4.Describe how the final hyperparameters were chosen.
-I use twiddle to determine the final hyperparameters, the code of twiddle in main_twiddle.cpp.
-Here is a code fragment
+I use twiddle to determine the final hyperparameters, the code of twiddle in main_twiddle.cpp.  
+Here is a code fragment  
 
 ```
 
@@ -160,5 +160,5 @@ Here is a code fragment
 
 
 #### 5.The vehicle must successfully drive a lap around the track.
-My car is in the simulator, it is swaying sometimes, but it does not fall out of the road.
-Here's a link to my [video](./Docs/video.mp4) result
+My car is in the simulator, it is swaying sometimes, but it does not fall out of the road.  
+Here's a link to my [video](./Docs/video.mp4) result  
