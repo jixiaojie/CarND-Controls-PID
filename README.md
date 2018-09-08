@@ -47,7 +47,7 @@ And here is a video for parameter P:
 
 D: 7.1  
 D (differential): Because parameter P will cause the vehicle to swing up and down near the reference trajectory, so add parameter D to reduce the amplitude of the swing, so that the vehicle can smoothly approach the reference trajectory.  
-Here is a image for parameter D:
+Here is a image for parameter D (No vehicle steering error):
 
 <div class="test">
 <img src="Docs/image_d.png" width="600" />
