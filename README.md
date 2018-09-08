@@ -25,7 +25,7 @@ I compile project by following instructions:
 5. ./pid
 
 #### 2.The PID procedure follows what was taught in the lessons.
-The simulator says "Success! Your particle filter passed!" .
+Here is the PID formula:
 <div class="test">
 <img src="Docs/framework.png" width="600" />
 </div>
@@ -33,9 +33,9 @@ The simulator says "Success! Your particle filter passed!" .
 
 #### 3.Describe the effect each of the P, I, D components had in your implementation.
 
-P:0.100513
-I:0.002906
-D:7.1
+P:0.100513  
+I:0.002906  
+D:7.1  
 
 
 #### 4.Describe how the final hyperparameters were chosen.
