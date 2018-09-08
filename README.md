@@ -42,10 +42,23 @@ Here is a image for parameter P:
 
 And here is a video for parameter P:
 [video](./Docs/video_p.mp4)
-  
+
+
+
+D: 7.1  
+D (differential): Because parameter P will cause the vehicle to swing up and down near the reference trajectory, so add parameter D to reduce the amplitude of the swing, so that the vehicle can smoothly approach the reference trajectory.  
+Here is a image for parameter D:
+
+<div class="test">
+<img src="Docs/image_d.png" width="600" />
+</div>
+
+And here is a video for parameter D:
+[video](./Docs/video_d.mp4)
+
 I: 0.002906  
-I (integral): Because parameter P will cause the vehicle to swing up and down near the reference trajectory, so add parameter I to reduce the amplitude of the swing, so that the vehicle can smoothly approach the reference trajectory.  
-Here is a image for parameter I:  
+I (integral): If the vehicle steering has some little error, so the vehicle can not approach the reference trajectory correctly. The parameter I can  compensate the vehicle steering error.  
+Here is a image for parameter I:   
 <div class="test">
 <img src="Docs/image_i.png" width="600" />
 </div>
@@ -54,15 +67,6 @@ And here is a video for parameter I:
 [video](./Docs/video_i.mp4)
 
 
-D: 7.1  
-D (differential): If the vehicle steering has some little error, so the vehicle can not approach the reference trajectory correctly. The parameter D can  compensate the vehicle steering error.  
-Here is a image for parameter D:  
-<div class="test">
-<img src="Docs/image_d.png" width="600" />
-</div>
-
-And here is a video for parameter D:
-[video](./Docs/video_d.mp4)
 
 #### 4.Describe how the final hyperparameters were chosen.
 I use twiddle to determine the final hyperparameters, the code of twiddle in main_twiddle.cpp.  
