@@ -190,5 +190,5 @@ Here is a code fragment
 
 
 #### 5.The vehicle must successfully drive a lap around the track.
-My car is in the simulator, it is swaying sometimes, but it does not fall out of the road.  
+My car in the simulator, it is swing, but it does not fall out of the road.  
 Here's a link to my [video](./Docs/video.mp4) result  
